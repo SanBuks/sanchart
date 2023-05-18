@@ -1,2 +1,2 @@
-# sanchart
-A Simple Flow Chart / Diagram Implemented By Qt
+# Introduction
+- a simple flowchart editor
