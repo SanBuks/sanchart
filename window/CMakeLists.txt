@@ -1,6 +1,6 @@
 project(window)
 
-target_sources(${TARGET} PRIVATE
-               forms/main_window.ui
-               include/main_window.h
-               src/main_window.cc)
+add_library(window SHARED src/main_window.cc)
+target_include_directories(window PUBLIC include)
+target_link_libraries(window PUBLIC Qt::Core Qt::Gui Qt::Widgets)
+copy_dll()

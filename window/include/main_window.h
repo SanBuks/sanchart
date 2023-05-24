@@ -1,7 +1,3 @@
-//
-// Created by SanBu on 2023/5/18.
-//
-
 #ifndef SANCHART_FORMS_MAIN_WINDOW_H_
 #define SANCHART_FORMS_MAIN_WINDOW_H_
 
@@ -22,4 +18,4 @@ class MainWindow : public QMainWindow {
   Ui::MainWindow *ui;
 };
 
-#endif //SANCHART_FORMS_MAIN_WINDOW_H_
+#endif
